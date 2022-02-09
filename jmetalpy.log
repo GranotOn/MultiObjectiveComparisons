@@ -1,0 +1,83 @@
+2022-02-09 18:43:29,836 [MainThread  ] [WARNI]  Reference front file was not found at resources/reference_front/ZDT1.pf
+2022-02-09 18:43:36,837 [MainThread  ] [INFO ]  Output file (function values): FUN.GDE3.ZDT1
+2022-02-09 18:43:36,839 [MainThread  ] [INFO ]  Output file (variables): VAR.GDE3.ZDT1
+2022-02-09 18:46:01,860 [MainThread  ] [WARNI]  Reference front file was not found at resources/reference_front/ZDT1.pf
+2022-02-09 18:46:09,295 [MainThread  ] [WARNI]  Reference front file was not found at resources/reference_front/ZDT1.pf
+2022-02-09 18:46:12,896 [MainThread  ] [INFO ]  Output file (function values): FUN.GDE3.ZDT1
+2022-02-09 18:46:12,897 [MainThread  ] [INFO ]  Output file (variables): VAR.GDE3.ZDT1
+2022-02-09 18:48:46,360 [MainThread  ] [WARNI]  Reference front file was not found at resources/reference_front/ZDT1.pf
+2022-02-09 18:48:47,804 [MainThread  ] [INFO ]  Output file (function values): FUN.GDE3.ZDT1
+2022-02-09 18:48:47,806 [MainThread  ] [INFO ]  Output file (variables): VAR.GDE3.ZDT1
+2022-02-09 18:49:03,427 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.ZDT1
+2022-02-09 18:49:03,429 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.ZDT1
+2022-02-09 18:51:43,139 [MainThread  ] [WARNI]  Reference front file was not found at resources/reference_front/ZDT1.pf
+2022-02-09 18:51:44,997 [MainThread  ] [INFO ]  Output file (function values): FUN.GDE3.ZDT1
+2022-02-09 18:51:44,998 [MainThread  ] [INFO ]  Output file (variables): VAR.GDE3.ZDT1
+2022-02-09 18:52:01,925 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.ZDT1
+2022-02-09 18:52:01,927 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.ZDT1
+2022-02-09 18:53:16,049 [MainThread  ] [WARNI]  Reference front file was not found at resources/reference_front/ZDT1.pf
+2022-02-09 18:53:17,472 [MainThread  ] [INFO ]  Output file (function values): FUN.GDE3.ZDT1
+2022-02-09 18:53:17,474 [MainThread  ] [INFO ]  Output file (variables): VAR.GDE3.ZDT1
+2022-02-09 18:53:34,807 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.ZDT1
+2022-02-09 18:53:34,809 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.ZDT1
+2022-02-09 18:54:24,947 [MainThread  ] [WARNI]  Reference front file was not found at resources/reference_front/ZDT1.pf
+2022-02-09 18:54:25,997 [MainThread  ] [INFO ]  Output file (function values): FUN.GDE3.ZDT1
+2022-02-09 18:54:25,999 [MainThread  ] [INFO ]  Output file (variables): VAR.GDE3.ZDT1
+2022-02-09 18:54:42,673 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.ZDT1
+2022-02-09 18:54:42,675 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.ZDT1
+2022-02-09 18:56:43,577 [MainThread  ] [WARNI]  Reference front file was not found at resources/reference_front/ZDT1.pf
+2022-02-09 18:57:10,622 [MainThread  ] [INFO ]  Output file (function values): FUN.GDE3.ZDT1
+2022-02-09 18:57:10,624 [MainThread  ] [INFO ]  Output file (variables): VAR.GDE3.ZDT1
+2022-02-09 18:57:27,331 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.ZDT1
+2022-02-09 18:57:27,333 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.ZDT1
+2022-02-09 18:58:31,880 [MainThread  ] [WARNI]  Reference front file was not found at resources/reference_front/ZDT1.pf
+2022-02-09 18:58:32,742 [MainThread  ] [INFO ]  Output file (function values): FUN.GDE3.ZDT1
+2022-02-09 18:58:32,743 [MainThread  ] [INFO ]  Output file (variables): VAR.GDE3.ZDT1
+2022-02-09 18:58:49,839 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.ZDT1
+2022-02-09 18:58:49,840 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.ZDT1
+2022-02-09 18:58:50,014 [MainThread  ] [INFO ]  Output file (function values): FUN.HYPE.ZDT1
+2022-02-09 18:58:50,015 [MainThread  ] [INFO ]  Output file (variables): VAR.HYPE.ZDT1
+2022-02-09 19:01:45,598 [MainThread  ] [WARNI]  Reference front file was not found at resources/reference_front/ZDT1.pf
+2022-02-09 19:02:00,830 [MainThread  ] [INFO ]  Output file (function values): FUN.GDE3.ZDT1
+2022-02-09 19:02:00,832 [MainThread  ] [INFO ]  Output file (variables): VAR.GDE3.ZDT1
+2022-02-09 19:02:17,755 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.ZDT1
+2022-02-09 19:02:17,757 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.ZDT1
+2022-02-09 19:02:34,420 [MainThread  ] [INFO ]  Output file (function values): FUN.MOCell.ZDT1
+2022-02-09 19:02:34,421 [MainThread  ] [INFO ]  Output file (variables): VAR.MOCell.ZDT1
+2022-02-09 19:03:37,894 [MainThread  ] [WARNI]  Reference front file was not found at resources/reference_front/ZDT1.pf
+2022-02-09 19:03:39,532 [MainThread  ] [INFO ]  Output file (function values): FUN.GDE3.ZDT1
+2022-02-09 19:03:39,534 [MainThread  ] [INFO ]  Output file (variables): VAR.GDE3.ZDT1
+2022-02-09 19:03:41,980 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.ZDT1
+2022-02-09 19:03:41,982 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.ZDT1
+2022-02-09 19:03:43,401 [MainThread  ] [INFO ]  Output file (function values): FUN.MOCell.ZDT1
+2022-02-09 19:03:43,403 [MainThread  ] [INFO ]  Output file (variables): VAR.MOCell.ZDT1
+2022-02-09 19:04:09,960 [MainThread  ] [WARNI]  Reference front file was not found at resources/reference_front/ZDT1.pf
+2022-02-09 19:04:16,220 [MainThread  ] [INFO ]  Output file (function values): FUN.GDE3.ZDT1
+2022-02-09 19:04:16,222 [MainThread  ] [INFO ]  Output file (variables): VAR.GDE3.ZDT1
+2022-02-09 19:04:23,614 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.ZDT1
+2022-02-09 19:04:23,616 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.ZDT1
+2022-02-09 19:04:29,241 [MainThread  ] [INFO ]  Output file (function values): FUN.MOCell.ZDT1
+2022-02-09 19:04:29,242 [MainThread  ] [INFO ]  Output file (variables): VAR.MOCell.ZDT1
+2022-02-09 19:11:48,038 [MainThread  ] [WARNI]  Reference front file was not found at resources/reference_front/ZDT1.pf
+2022-02-09 19:11:54,655 [MainThread  ] [INFO ]  Output file (function values): FUN.GDE3.ZDT1
+2022-02-09 19:11:54,657 [MainThread  ] [INFO ]  Output file (variables): VAR.GDE3.ZDT1
+2022-02-09 19:12:02,330 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.ZDT1
+2022-02-09 19:12:02,332 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.ZDT1
+2022-02-09 19:12:08,526 [MainThread  ] [INFO ]  Output file (function values): FUN.MOCell.ZDT1
+2022-02-09 19:12:08,528 [MainThread  ] [INFO ]  Output file (variables): VAR.MOCell.ZDT1
+2022-02-09 19:12:33,645 [MainThread  ] [WARNI]  Reference front file was not found at zdt.pf
+2022-02-09 19:12:43,219 [MainThread  ] [WARNI]  Reference front file was not found at ./zdt.pf
+2022-02-09 19:13:01,764 [MainThread  ] [INFO ]  Output file (function values): FUN.GDE3.ZDT1
+2022-02-09 19:13:01,766 [MainThread  ] [INFO ]  Output file (variables): VAR.GDE3.ZDT1
+2022-02-09 19:13:08,826 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.ZDT1
+2022-02-09 19:13:08,828 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.ZDT1
+2022-02-09 19:13:14,728 [MainThread  ] [INFO ]  Output file (function values): FUN.MOCell.ZDT1
+2022-02-09 19:13:14,731 [MainThread  ] [INFO ]  Output file (variables): VAR.MOCell.ZDT1
+2022-02-09 19:17:34,521 [MainThread  ] [INFO ]  Output file (function values): FUN.GDE3.ZDT1
+2022-02-09 19:17:34,523 [MainThread  ] [INFO ]  Output file (variables): VAR.GDE3.ZDT1
+2022-02-09 19:17:41,529 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.ZDT1
+2022-02-09 19:17:41,531 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.ZDT1
+2022-02-09 19:17:47,230 [MainThread  ] [INFO ]  Output file (function values): FUN.MOCell.ZDT1
+2022-02-09 19:17:47,232 [MainThread  ] [INFO ]  Output file (variables): VAR.MOCell.ZDT1
+2022-02-09 19:19:02,997 [MainThread  ] [INFO ]  Output file (function values): FUN.GDE3.ZDT1
+2022-02-09 19:19:02,999 [MainThread  ] [INFO ]  Output file (variables): VAR.GDE3.ZDT1
