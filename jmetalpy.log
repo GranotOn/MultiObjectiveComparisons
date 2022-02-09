@@ -81,3 +81,23 @@
 2022-02-09 19:17:47,232 [MainThread  ] [INFO ]  Output file (variables): VAR.MOCell.ZDT1
 2022-02-09 19:19:02,997 [MainThread  ] [INFO ]  Output file (function values): FUN.GDE3.ZDT1
 2022-02-09 19:19:02,999 [MainThread  ] [INFO ]  Output file (variables): VAR.GDE3.ZDT1
+2022-02-09 19:43:12,767 [MainThread  ] [INFO ]  Output file (function values): FUN.GDE3.ZDT1
+2022-02-09 19:43:12,770 [MainThread  ] [INFO ]  Output file (variables): VAR.GDE3.ZDT1
+2022-02-09 19:43:20,218 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.ZDT1
+2022-02-09 19:43:20,220 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.ZDT1
+2022-02-09 19:43:56,385 [MainThread  ] [INFO ]  Output file (function values): FUN.GDE3.ZDT1
+2022-02-09 19:43:56,388 [MainThread  ] [INFO ]  Output file (variables): VAR.GDE3.ZDT1
+2022-02-09 19:44:04,118 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.ZDT1
+2022-02-09 19:44:04,119 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.ZDT1
+2022-02-09 19:44:09,938 [MainThread  ] [INFO ]  Output file (function values): FUN.MOCell.ZDT1
+2022-02-09 19:44:09,940 [MainThread  ] [INFO ]  Output file (variables): VAR.MOCell.ZDT1
+2022-02-09 19:44:13,011 [MainThread  ] [INFO ]  Output file (function values): FUN.OMOPSO.ZDT1
+2022-02-09 19:44:13,014 [MainThread  ] [INFO ]  Output file (variables): VAR.OMOPSO.ZDT1
+2022-02-09 19:44:45,649 [MainThread  ] [INFO ]  Output file (function values): FUN.GDE3.ZDT1
+2022-02-09 19:44:45,651 [MainThread  ] [INFO ]  Output file (variables): VAR.GDE3.ZDT1
+2022-02-09 19:44:53,298 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.ZDT1
+2022-02-09 19:44:53,299 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.ZDT1
+2022-02-09 19:44:59,140 [MainThread  ] [INFO ]  Output file (function values): FUN.MOCell.ZDT1
+2022-02-09 19:44:59,142 [MainThread  ] [INFO ]  Output file (variables): VAR.MOCell.ZDT1
+2022-02-09 19:45:02,194 [MainThread  ] [INFO ]  Output file (function values): FUN.OMOPSO.ZDT1
+2022-02-09 19:45:02,196 [MainThread  ] [INFO ]  Output file (variables): VAR.OMOPSO.ZDT1

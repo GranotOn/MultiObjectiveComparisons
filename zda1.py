@@ -2,7 +2,10 @@ from jmetal.algorithm.multiobjective.gde3 import GDE3
 from jmetal.algorithm.multiobjective import NSGAII
 from jmetal.algorithm.multiobjective.mocell import MOCell
 from jmetal.util.neighborhood import C9
+from jmetal.algorithm.multiobjective.omopso import OMOPSO
 from jmetal.util.archive import CrowdingDistanceArchive
+from jmetal.operator import UniformMutation
+from jmetal.operator.mutation import NonUniformMutation
 from jmetal.operator import SBXCrossover, PolynomialMutation
 from jmetal.lab.visualization import Plot
 from jmetal.util.termination_criterion import StoppingByEvaluations
@@ -40,7 +43,7 @@ def plot_algorithm(algorithm, label, filename):
 
 
 if __name__ == "__main__":
-
+    mutation_probability = 1.0 / problem.number_of_variables
     gde3 = GDE3(problem=problem,
                 population_size=POPULATION_SIZE,
                 cr=0.5,
@@ -88,3 +91,22 @@ if __name__ == "__main__":
     plot_algorithm(algorithm=mocell,
                    label="MOCell ZDT-1",
                    filename="mocell_plot")
+
+    omopso = OMOPSO(
+        problem=problem,
+        swarm_size=100,
+        epsilon=0.0075,
+        uniform_mutation=UniformMutation(probability=mutation_probability,
+                                         perturbation=0.5),
+        non_uniform_mutation=NonUniformMutation(mutation_probability,
+                                                perturbation=0.5,
+                                                max_iterations=int(
+                                                    MAX_EVALUATIONS / 100)),
+        leaders=CrowdingDistanceArchive(100),
+        termination_criterion=StoppingByEvaluations(
+            max_evaluations=MAX_EVALUATIONS),
+    )
+
+    omopso.run()
+    save_algorithm_to_file(omopso)
+    plot_algorithm(omopso, label="OMOPSO ZDT-1", filename="omopso_plot")
