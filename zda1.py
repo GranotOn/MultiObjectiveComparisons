@@ -19,7 +19,7 @@ from jmetal.problem import ZDT2
 from jmetal.problem import ZDT3
 from jmetal.problem import ZDT4
 
-MAX_EVALUATIONS = 10000
+MAX_EVALUATIONS = 25000
 POPULATION_SIZE = 100
 
 zdt1_problem = ZDT1()
@@ -89,7 +89,7 @@ def init_nsga2(problem):
         offspring_population_size=100,
         mutation=PolynomialMutation(probability=mutation_probability,
                                     distribution_index=20),
-        crossover=SBXCrossover(probability=1.0, distribution_index=20),
+        crossover=SBXCrossover(probability=0.8, distribution_index=20),
         termination_criterion=StoppingByEvaluations(
             max_evaluations=MAX_EVALUATIONS))
     return nsga2
@@ -103,10 +103,10 @@ def init_omopso(problem):
         epsilon=0.0075,
         uniform_mutation=UniformMutation(probability=mutation_probability,
                                          perturbation=0.5),
-        non_uniform_mutation=NonUniformMutation(mutation_probability,
-                                                perturbation=0.5,
-                                                max_iterations=int(
-                                                    MAX_EVALUATIONS / 100)),
+        non_uniform_mutation=NonUniformMutation(
+            mutation_probability,
+            perturbation=0.5,
+            max_iterations=int(MAX_EVALUATIONS)),
         leaders=CrowdingDistanceArchive(100),
         termination_criterion=StoppingByEvaluations(
             max_evaluations=MAX_EVALUATIONS),
@@ -142,7 +142,8 @@ if __name__ == "__main__":
     save_algorithm_to_file(mocell)
     plot_algorithm(algorithm=mocell,
                    label="MOCell ZDT-1",
-                   filename="mocell_zdt1_front")
+                   filename="mocell_zdt1_front",
+                   problem=zdt1_problem)
 
     #########
     # NSGA-II
@@ -154,7 +155,8 @@ if __name__ == "__main__":
     save_algorithm_to_file(nsga2)
     plot_algorithm(algorithm=nsga2,
                    label="NSGA-II ZDT-1",
-                   filename="nsga2_zdt1_front")
+                   filename="nsga2_zdt1_front",
+                   problem=zdt1_problem)
 
     # ZDT2
     nsga2 = init_nsga2(zdt2_problem)
@@ -162,7 +164,8 @@ if __name__ == "__main__":
     save_algorithm_to_file(nsga2)
     plot_algorithm(algorithm=nsga2,
                    label="NSGA-II ZDT-2",
-                   filename="nsga2_zdt2_front")
+                   filename="nsga2_zdt2_front",
+                   problem=zdt2_problem)
 
     # ZDT3
     nsga2 = init_nsga2(zdt3_problem)
@@ -170,7 +173,8 @@ if __name__ == "__main__":
     save_algorithm_to_file(nsga2)
     plot_algorithm(algorithm=nsga2,
                    label="NSGA-II ZDT-3",
-                   filename="nsga2_zdt3_front")
+                   filename="nsga2_zdt3_front",
+                   problem=zdt3_problem)
 
     # ZDT4
     nsga2 = init_nsga2(zdt4_problem)
@@ -178,7 +182,8 @@ if __name__ == "__main__":
     save_algorithm_to_file(nsga2)
     plot_algorithm(algorithm=nsga2,
                    label="NSGA-II ZDT-4",
-                   filename="nsga2_zdt4_front")
+                   filename="nsga2_zdt4_front",
+                   problem=zdt4_problem)
 
     ########
     # Omopso
@@ -188,22 +193,34 @@ if __name__ == "__main__":
     omopso = init_omopso(zdt1_problem)
     omopso.run()
     save_algorithm_to_file(omopso)
-    plot_algorithm(omopso, label="OMOPSO ZDT-1", filename="omopso_zdt1_front")
+    plot_algorithm(omopso,
+                   label="OMOPSO ZDT-1",
+                   filename="omopso_zdt1_front",
+                   problem=zdt1_problem)
 
     # ZDT2
     omopso = init_omopso(zdt2_problem)
     omopso.run()
     save_algorithm_to_file(omopso)
-    plot_algorithm(omopso, label="OMOPSO ZDT-2", filename="omopso_zdt2_front")
+    plot_algorithm(omopso,
+                   label="OMOPSO ZDT-2",
+                   filename="omopso_zdt2_front",
+                   problem=zdt2_problem)
 
     # ZDT3
     omopso = init_omopso(zdt3_problem)
     omopso.run()
     save_algorithm_to_file(omopso)
-    plot_algorithm(omopso, label="OMOPSO ZDT-3", filename="omopso_zdt3_front")
+    plot_algorithm(omopso,
+                   label="OMOPSO ZDT-3",
+                   filename="omopso_zdt3_front",
+                   problem=zdt3_problem)
 
     # ZDT4
     omopso = init_omopso(zdt4_problem)
     omopso.run()
     save_algorithm_to_file(omopso)
-    plot_algorithm(omopso, label="OMOPSO ZDT-4", filename="omopso_zdt4_front")
+    plot_algorithm(omopso,
+                   label="OMOPSO ZDT-4",
+                   filename="omopso_zdt4_front",
+                   problem=zdt4_problem)
